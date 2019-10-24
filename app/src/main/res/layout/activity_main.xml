@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Najjfa Burger"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:src="@drawable/burger"
+        android:background="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        android:text="Always on time with a tasty burger"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="140dp"
+            android:src="@drawable/delivery"
+
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="140dp"
+            android:src="@drawable/res"
+
+
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+
+        android:text="Eat at restaurant or home"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+
+            android:text="26 the rameo street, Dokki, Giza"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_phone_black_24dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+
+            android:text="01127195627 - 01127195627"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_public_black_24dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+
+            android:text="www.najjfaBurger.com"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
