@@ -21,7 +21,7 @@
         />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="274dp"
+        android:layout_height="160dp"
         android:src="@drawable/burger"
         android:background="#000"
         />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="8dp"
-
+            android:layout_marginBottom="8dp"
             android:text="26 the rameo street, Dokki, Giza"
             android:textColor="#fff"
             android:textSize="16dp"
