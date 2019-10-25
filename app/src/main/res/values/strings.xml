@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Najjfa</string>
+    <string name="najjfa_burger">Najjfa Burger</string>
+    <string name="slogan">Always on time with a tasty burger</string>
+    <string name="value">Eat at restaurant or home</string>
+    <string name="location">location</string>
+    <string name="address">26 the rameo street, Dokki, Giza</string>
+    <string name="header_image">header image</string>
+    <string name="delivery_image">delivery image</string>
+    <string name="resturantimage">restaurant Image</string>
+    <string name="phone_icon">phone icon</string>
+    <string name="phones">01127195627 /- 01127195627</string>
+    <string name="website_icon">website icon</string>
+    <string name="website">www.najjfaBurger.com</string>
 </resources>
